@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* custom variables */
+:root {
+    /* ## Colors  */
+    /* ### Primary  */
+    --cl-VeryDarkBlue: hsl(243, 87%, 12%);
+    --cl-DesaturatedBlue: hsl(238, 22%, 44%);
+    /* ### Accent  */
+    --cl-BrightBlue: hsl(224, 93%, 58%);
+    --cl-ModerateCyan: hsl(170, 45%, 43%);
+    /* ### Neutral  */
+    --cl-LightGrayishBlue: hsl(240, 75%, 98%);
+    --cl-LightGray: hsl(0, 0%, 75%);
+}
+
+/* global css */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+nav {
+    font-family: 'Raleway', sans-serif;
+
+}
