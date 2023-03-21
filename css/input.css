@@ -29,3 +29,13 @@ nav {
     font-family: 'Raleway', sans-serif;
 
 }
+
+
+/* header */
+.header-content h1 {
+    font-size: 1.6rem;
+}
+
+.header-content p {
+    font-size: .95rem;
+}
