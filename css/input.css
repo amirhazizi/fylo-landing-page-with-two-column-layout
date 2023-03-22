@@ -39,3 +39,26 @@ nav {
 .header-content p {
     font-size: .95rem;
 }
+
+/* section 1 */
+.section-1 {
+    padding-top: 2rem;
+    margin-top: 7rem;
+}
+
+.user-comment {
+    width: 17rem;
+    padding: 1rem 1.7rem;
+}
+
+.user-comment p {
+    font-size: .61rem;
+}
+
+.user-comment-footer>div>h2 {
+    font-size: .75rem;
+}
+
+.user-comment-footer>div>p {
+    font-size: .55rem;
+}

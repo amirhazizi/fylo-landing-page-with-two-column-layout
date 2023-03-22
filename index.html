@@ -69,7 +69,7 @@
                 placeholder="Enter your email..."
               />
               <button
-                class="w-full bg-cl_BrightBlue text-white font-bold py-2 rounded-md"
+                class="w-full bg-cl_BrightBlue text-white font-bold py-2 rounded-md shadow-lg"
                 type="submit"
               >
                 Get Started
@@ -81,17 +81,111 @@
     </header>
     <!-- end header -->
 
-    Stay productive, wherever you are Never let location be an issue when
-    accessing your files. Fylo has you covered for all of your file storage
-    needs. Securely share files and folders with friends, family and colleagues
-    for live collaboration. No email attachments required! See how Fylo works
-    Fylo has improved our team productivity by an order of magnitude. Since
-    making the switch our team has become a well-oiled collaboration machine.
-    Kyle Burton Founder & CEO, Huddle Get early access today It only takes a
-    minute to sign up and our free starter tier is extremely generous. If you
-    have any questions, our support team would be happy to help you. Get Started
-    For Free Phone: +1-543-123-4567 example@fylo.com About Us Jobs Press Blog
-    Contact Us Terms Privacy
+    <!-- section 1 -->
+    <section class="section-1 relative bg-cl_LightGrayishBlue">
+      <!-- float img -->
+      <img
+        class="absolute left-0 top-0 -translate-y-10 w-full"
+        src="./images/bg-curve-mobile.svg"
+        alt="bg-curve-mobile.svg"
+      />
+      <!-- container -->
+      <div class="max-w-ms mx-auto p-6 space-y-24">
+        <!-- img article -->
+        <article>
+          <img src="./images/illustration-2.svg" alt="illustration-2.svg" />
+        </article>
+        <!-- text article -->
+        <article class="space-y-10">
+          <div class="space-y-5">
+            <h1 class="text-lg font-bold text-center pb-2">
+              Stay productive, wherever you are
+            </h1>
+            <p class="text-sm text-cl_DesaturatedBlue">
+              Never let location be an issue when accessing your files. Fylo has
+              you covered for all of your file storage needs.
+            </p>
+            <p class="text-sm text-cl_DesaturatedBlue">
+              Securely share files and folders with friends, family and
+              colleagues for live collaboration. No email attachments required!
+            </p>
+            <a
+              href="#"
+              class="flex items-center text-sm border-b pt-5 border-cl_ModerateCyan text-cl_ModerateCyan w-fit pb-1 mx-auto"
+            >
+              See how Fylo works
+              <svg
+                class="ml-2"
+                width="16"
+                height="16"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+              >
+                <defs>
+                  <circle id="b" cx="6" cy="6" r="6" />
+                  <filter
+                    x="-25%"
+                    y="-25%"
+                    width="150%"
+                    height="150%"
+                    filterUnits="objectBoundingBox"
+                    id="a"
+                  >
+                    <feOffset in="SourceAlpha" result="shadowOffsetOuter1" />
+                    <feGaussianBlur
+                      stdDeviation="1"
+                      in="shadowOffsetOuter1"
+                      result="shadowBlurOuter1"
+                    />
+                    <feColorMatrix
+                      values="0 0 0 0 0.239215686 0 0 0 0 0.62745098 0 0 0 0 0.560784314 0 0 0 0.793506567 0"
+                      in="shadowBlurOuter1"
+                    />
+                  </filter>
+                </defs>
+                <g fill="none" fill-rule="evenodd">
+                  <g transform="translate(2 2)">
+                    <use fill="#000" filter="url(#a)" xlink:href="#b" />
+                    <use fill="#3DA08F" xlink:href="#b" />
+                  </g>
+                  <path
+                    d="M8.582 6l-.363.35 1.452 1.4H5.333v.5h4.338L8.22 9.65l.363.35 2.074-2z"
+                    fill="#FFF"
+                  />
+                </g>
+              </svg>
+            </a>
+          </div>
+          <div
+            class="user-comment mx-auto shadow-lg space-y-2 bg-white rounded-md"
+          >
+            <img src="./images/icon-quotes.svg" alt="icon-quotes.svg" />
+            <p class="font-bold opacity-90 leading-4">
+              Fylo has improved our team productivity by an order of magnitude.
+              Since making the switch our team has become a well-oiled
+              collaboration machine.
+            </p>
+            <div class="user-comment-footer flex items-center space-x-2">
+              <img
+                class="h-7 rounded-full"
+                src="./images/avatar-testimonial.jpg"
+                alt="avatar-testimonial.jpg"
+              />
+              <div class="font-bold">
+                <h2>Kyle Burton</h2>
+                <p class="text-cl_DesaturatedBlue">Founder & CEO, Huddle</p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- end section 1 -->
+
+    Get early access today It only takes a minute to sign up and our free
+    starter tier is extremely generous. If you have any questions, our support
+    team would be happy to help you. Get Started For Free Phone: +1-543-123-4567
+    example@fylo.com About Us Jobs Press Blog Contact Us Terms Privacy
   </body>
   <!-- app.js -->
   <script src="./js/app.js" type="module"></script>
