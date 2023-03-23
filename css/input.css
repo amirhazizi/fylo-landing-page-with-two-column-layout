@@ -44,11 +44,13 @@ nav {
 .section-1 {
     padding-top: 2rem;
     margin-top: 7rem;
+    padding-bottom: 3rem;
 }
 
 .user-comment {
     width: 17rem;
     padding: 1rem 1.7rem;
+
 }
 
 .user-comment p {
