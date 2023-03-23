@@ -62,3 +62,11 @@ nav {
 .user-comment-footer>div>p {
     font-size: .55rem;
 }
+
+.facebook-icon,
+.twitter-icon,
+.instagram-icon {
+    height: 2rem;
+    width: 2rem;
+    padding: .45rem;
+}
