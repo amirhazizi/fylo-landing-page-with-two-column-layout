@@ -51,29 +51,33 @@
 
         <!-- header content -->
         <div
-          class="header-content text-center space-y-12 md:text-left md:space-y-0 md:flex md:items-center md:flex-row-reverse"
+          class="header-content text-center space-y-12 md:text-left md:space-y-0 md:flex md:items-center md:flex-row-reverse md:justify-between"
         >
           <!-- intro img -->
           <img
             src="./images/illustration-1.svg"
             alt="illustration-1.svg"
-            class="md:w-1/2 md:ml-5 lg:ml-10"
+            class="md:w-1/2 md:ml-5 lg:ml-10 xl:ml-0"
           />
           <!-- text content -->
-          <div class="space-y-7 md:space-y-4">
+          <div class="space-y-7 md:space-y-4 xl:w-4/5">
             <!-- header -->
-            <h1 class="font-bold text-cl_VeryDarkBlue">
+            <h1
+              class="font-bold text-cl_VeryDarkBlue md:max-w-sm lg:max-w-md lx:max-w-2xl"
+            >
               All your files in one secure location, accessible anywhere.
             </h1>
             <!-- text -->
-            <p class="font-bold text-cl_VeryDarkBlue">
+            <p
+              class="font-bold text-cl_VeryDarkBlue md:max-w-sm lg:max-w-md lx:max-w-xl"
+            >
               Fylo stores your most important files in one secure location.
               Access them wherever you need, share and collaborate with friends,
               family, and co-workers.
             </p>
             <!-- sign up form -->
             <form
-              class="flex flex-col space-y-3 px-2 md:px-0 md:flex-row md:items-stretch md:space-x-2 md:space-y-0"
+              class="flex flex-col space-y-3 px-2 md:px-0 md:flex-row md:items-stretch md:space-x-2 md:space-y-0 md:w-4/5 lg:w-4/5"
             >
               <input
                 class="w-full border py-3 px-4 text-sm rounded-md border-cl_DesaturatedBlue focus:outline-cl_BrightBlue md:w-2/3 md:py-2 lg:w-3/5"
@@ -103,40 +107,48 @@
       />
       <!-- float img desktop screen -->
       <img
-        class="invisible md:visible absolute left-0 top-0 -translate-y-10 w-full"
+        class="invisible md:visible absolute left-0 top-0 -translate-y-10 w-full lg:-translate-y-14 xl:-translate-y-20"
         src="./images/bg-curve-desktop.svg"
         alt="bg-curve-desktop.svg"
       />
       <!-- container -->
       <div
-        class="p-6 space-y-24 md:flex md:flex-row-reverse md:space-y-0 md:max-w-3xl md:mx-auto md:justify-center md:items-center md:p-10 lg:max-w-4xl lx:max-w-custom"
+        class="p-6 space-y-24 md:flex md:flex-row-reverse md:space-y-0 md:max-w-3xl md:mx-auto md:justify-center md:items-start md:p-10 lg:max-w-4xl lx:max-w-custom"
       >
         <!-- img article -->
-        <article class="md:w-2/3 md:ml-10">
+        <article
+          class="section-2-img md:ml-10 lg:ml-0 lg:w-7/12 lg:p-10 lg:pt-4"
+        >
           <img src="./images/illustration-2.svg" alt="illustration-2.svg" />
         </article>
         <!-- text article -->
-        <article class="space-y-10 md:w-2/3 md:space-y-7">
+        <article class="space-y-10 md:w-2/3 md:space-y-7 lg:w-4/5">
           <!-- container -->
           <div class="space-y-5 md:space-y-2 font-bold">
             <!-- header -->
-            <h1 class="text-lg text-center pb-2 md:text-left md:text-sm">
+            <h1
+              class="text-lg text-center pb-2 md:text-left md:text-base lg:text-2xl xl:text-4xl"
+            >
               Stay productive, wherever you are
             </h1>
             <!-- text 1 -->
-            <p class="section-1-p text-cl_DesaturatedBlue">
+            <p
+              class="section-1-p text-cl_DesaturatedBlue md:max-w-sm lg:max-w-md lx:max-w-lg"
+            >
               Never let location be an issue when accessing your files. Fylo has
               you covered for all of your file storage needs.
             </p>
             <!-- text 2 -->
-            <p class="section-1-p text-cl_DesaturatedBlue">
+            <p
+              class="section-1-p text-cl_DesaturatedBlue md:max-w-sm lg:max-w-md lx:max-w-lg"
+            >
               Securely share files and folders with friends, family and
               colleagues for live collaboration. No email attachments required!
             </p>
             <!-- link cotainer -->
             <a
               href="#"
-              class="flex items-center text-sm border-b pt-5 border-cl_ModerateCyan text-cl_ModerateCyan w-fit pb-1 mx-auto md:mx-0 md:text-xs md:pt-1"
+              class="flex items-center text-sm border-b pt-5 border-cl_ModerateCyan text-cl_ModerateCyan w-fit pb-1 mx-auto md:mx-0 md:text-xs md:pt-1 lg:text-base"
             >
               See how Fylo works
               <svg
@@ -214,18 +226,22 @@
         class="md:mx-auto p-6 py-12 md:flex md:justify-between md:max-w-3xl md:p-10 lg:max-w-4xl lx:max-w-custom"
       >
         <!-- text article -->
-        <article class="text-center text-white space-y-3 md:text-left md:w-1/2">
+        <article
+          class="text-center text-white space-y-3 md:text-left md:w-1/2 lx:w-2/5"
+        >
           <!-- header -->
-          <h1 class="text-xl font-bold md:text-2xl">Get early access today</h1>
+          <h1 class="text-xl font-bold md:text-2xl xl:text-3xl">
+            Get early access today
+          </h1>
           <!-- text -->
-          <p class="opacity-90 md:text-sm">
+          <p class="opacity-90 md:text-sm xl:text-base">
             It only takes a minute to sign up and our free starter tier is
             extremely generous. If you have any questions, our support team
             would be happy to help you.
           </p>
         </article>
         <!-- sign in form -->
-        <form class="flex flex-col space-y-3 p-7 py-6 md:w-1/2">
+        <form class="flex flex-col space-y-3 p-7 py-6 md:w-1/2 lx:w-2/5">
           <input
             class="w-full border px-3 h-10 text-sm rounded-sm border-cl_DesaturatedBlue focus:outline-cl_BrightBlue"
             type="text"
@@ -246,7 +262,7 @@
     <footer class="bg-cl_VeryDarkBlue text-white">
       <!-- container -->
       <div
-        class="md:mx-auto p-10 py-20 space-y-9 md:max-w-3xl lg:max-w-4xl lx:max-w-custom"
+        class="md:mx-auto p-10 py-20 space-y-9 md:max-w-3xl lg:max-w-4xl lx:max-w-custom xl:space-y-14"
       >
         <!-- logo.svg -->
         <svg
@@ -271,7 +287,7 @@
         </svg>
         <!-- links -->
         <div
-          class="text-white space-y-12 md:grid md:grid-cols-2 md:space-y-0 md:gap-10 md:items-center lg:grid-cols-3 lg:items-start lg:gap-14"
+          class="text-white space-y-12 md:grid md:grid-cols-2 md:space-y-0 md:gap-10 md:items-center lg:grid-cols-3 lg:items-start lg:gap-14 lx:grid-cols-4"
         >
           <!-- contact container -->
           <div class="space-y-4 md:mx-auto lg:mx-0">
@@ -314,7 +330,9 @@
             </li>
           </ul>
           <!-- social links -->
-          <div class="flex justify-center items-center space-x-3 lg:col-span-3">
+          <div
+            class="flex justify-center items-center space-x-3 lg:col-span-3 lx:col-span-1 xl:justify-start"
+          >
             <!-- facebook -->
             <a href="#">
               <svg
@@ -359,7 +377,7 @@
           </div>
         </div>
         <!-- author container -->
-        <div class="w-fit mx-auto text-cl_LightGray text-center">
+        <div class="w-fit mx-auto text-cl_LightGray text-center text-sm">
           <p>
             Challenge by
             <a
@@ -378,7 +396,8 @@
       </div>
     </footer>
     <!-- end footer -->
+
+    <!-- app.js -->
+    <script src="./js/app.js" type="module"></script>
   </body>
-  <!-- app.js -->
-  <script src="./js/app.js" type="module"></script>
 </html>
