@@ -47,6 +47,10 @@ nav {
     padding-bottom: 3rem;
 }
 
+.section-1-p {
+    font-size: .9rem;
+}
+
 .user-comment {
     width: 17rem;
     padding: 1rem 1.7rem;
@@ -71,4 +75,39 @@ nav {
     height: 2rem;
     width: 2rem;
     padding: .45rem;
+}
+
+/* queris */
+@media (min-width:768px) {
+
+    /* header */
+    .header-content h1 {
+        font-size: 1.3rem;
+    }
+
+    .header-content p {
+        font-size: .65rem;
+    }
+
+    /* section 1 */
+    .section-1-p {
+        font-size: .7rem;
+    }
+
+    .user-comment {
+        width: 13rem;
+        padding: 1rem 1.2rem;
+    }
+
+    .user-comment p {
+        font-size: .5rem;
+    }
+
+    .user-comment-footer>div>h2 {
+        font-size: .65rem;
+    }
+
+    .user-comment-footer>div>p {
+        font-size: .45rem;
+    }
 }
