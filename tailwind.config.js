@@ -22,6 +22,10 @@ module.exports = {
         cl_LightGrayishBlue: "hsl(240, 75%, 98%)",
         cl_LightGray: "hsl(0, 0%, 75%)",
       },
+      // ## maxWidth
+      maxWidth: {
+        custom: "87rem",
+      },
     },
   },
   plugins: [],

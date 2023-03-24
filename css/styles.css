@@ -1036,6 +1036,18 @@ nav {
   }
 }
 
+@media (min-width:968px) {
+  /* header */
+
+  .header-content h1 {
+    font-size: 1.5rem;
+  }
+
+  .header-content p {
+    font-size: .75rem;
+  }
+}
+
 .hover\:text-cyan-400:hover {
   --tw-text-opacity: 1;
   color: rgb(34 211 238 / var(--tw-text-opacity));
@@ -1096,14 +1108,6 @@ nav {
     width: 66.666667%;
   }
 
-  .md\:w-2\/4 {
-    width: 50%;
-  }
-
-  .md\:w-2\/5 {
-    width: 40%;
-  }
-
   .md\:w-3\/5 {
     width: 60%;
   }
@@ -1124,10 +1128,6 @@ nav {
     flex-direction: row-reverse;
   }
 
-  .md\:items-start {
-    align-items: flex-start;
-  }
-
   .md\:items-center {
     align-items: center;
   }
@@ -1142,10 +1142,6 @@ nav {
 
   .md\:justify-between {
     justify-content: space-between;
-  }
-
-  .md\:gap-4 {
-    gap: 1rem;
   }
 
   .md\:gap-10 {
@@ -1182,10 +1178,6 @@ nav {
     margin-bottom: calc(1.75rem * var(--tw-space-y-reverse));
   }
 
-  .md\:self-center {
-    align-self: center;
-  }
-
   .md\:p-10 {
     padding: 2.5rem;
   }
@@ -1212,6 +1204,11 @@ nav {
     text-align: center;
   }
 
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
   .md\:text-sm {
     font-size: 0.875rem;
     line-height: 1.25rem;
@@ -1221,9 +1218,84 @@ nav {
     font-size: 0.75rem;
     line-height: 1rem;
   }
+}
 
-  .md\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
+@media (min-width: 976px) {
+  .lg\:col-span-3 {
+    grid-column: span 3 / span 3;
+  }
+
+  .lg\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .lg\:ml-10 {
+    margin-left: 2.5rem;
+  }
+
+  .lg\:h-10 {
+    height: 2.5rem;
+  }
+
+  .lg\:h-8 {
+    height: 2rem;
+  }
+
+  .lg\:w-2\/5 {
+    width: 40%;
+  }
+
+  .lg\:w-3\/5 {
+    width: 60%;
+  }
+
+  .lg\:max-w-4xl {
+    max-width: 56rem;
+  }
+
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:items-start {
+    align-items: flex-start;
+  }
+
+  .lg\:items-center {
+    align-items: center;
+  }
+
+  .lg\:gap-14 {
+    gap: 3.5rem;
+  }
+
+  .lg\:text-left {
+    text-align: left;
+  }
+
+  .lg\:text-start {
+    text-align: start;
+  }
+
+  .lg\:text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:w-7\/12 {
+    width: 58.333333%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .lx\:w-7\/12 {
+    width: 58.333333%;
+  }
+
+  .lx\:max-w-custom {
+    max-width: 87rem;
   }
 }
