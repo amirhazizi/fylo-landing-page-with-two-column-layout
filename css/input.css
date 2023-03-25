@@ -30,13 +30,16 @@ nav {
 
 }
 
+.label-text {
+    font-size: .9rem;
+}
 
 /* header */
 .header-content h1 {
     font-size: 1.6rem;
 }
 
-.header-content p {
+.header-text {
     font-size: .95rem;
 }
 
@@ -86,7 +89,7 @@ nav {
         font-size: 1.3rem;
     }
 
-    .header-content p {
+    .header-text {
         font-size: .65rem;
     }
 
@@ -126,7 +129,7 @@ nav {
         font-size: 1.5rem;
     }
 
-    .header-content p {
+    .header-text {
         font-size: .75rem;
     }
 }
@@ -138,7 +141,7 @@ nav {
         font-size: 2.5rem;
     }
 
-    .header-content p {
+    .header-text {
         font-size: 1.1rem;
     }
 
